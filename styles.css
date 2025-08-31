@@ -1,0 +1,80 @@
+/* General Page Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;   /* Removes default browser margin */
+  padding: 0;  /* Removes default browser padding */
+  background-color: #f4f6f8;
+}
+
+/* Header */
+.site-header {
+  background-color: #3b82f6;
+  color: white;
+  padding: 20px;     /* Inside spacing around header text */
+  text-align: center;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;    /* Horizontal spacing between links */
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+/* Intro Section */
+.intro {
+  background-color: #e0f2fe; /* Light background to show box boundary */
+  margin: 20px;             /* Outside spacing around the intro box */
+  padding: 20px;            /* Inside spacing between border and content */
+  border: 2px solid #0284c7;/* Visible border for Box Model demonstration */
+  border-radius: 8px;       /* Rounded corners */
+}
+
+/* Cards Section */
+.cards {
+  display: flex;    /* Puts cards side by side */
+  gap: 20px;        /* Space between cards */
+  margin: 20px;     /* Space outside the entire card section */
+}
+
+.card {
+  background-color: white;
+  border: 2px solid #cbd5e1; /* Shows card boundaries */
+  padding: 15px;             /* Inside spacing (content → border) */
+  margin: 10px;              /* Outside spacing (card → neighboring element) */
+  flex: 1;                   /* Makes cards equal width */
+  border-radius: 8px;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.1); /* Adds depth */
+}
+
+.card h3 {
+  margin-top: 0; /* Removes extra space above heading */
+}
+
+/* Buttons */
+button {
+  background-color: #3b82f6;
+  color: white;
+  border: none;              /* Removes default button border */
+  padding: 10px 15px;        /* Inside spacing: vertical x horizontal */
+  margin-top: 10px;          /* Space above button from paragraph */
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #2563eb; /* Darker blue on hover */
+}
+
+/* Footer */
+.site-footer {
+  text-align: center;
+  background-color: #1e293b;
+  color: white;
+  padding: 15px;    /* Inside spacing */
+  margin-top: 30px; /* Space above footer */
+}

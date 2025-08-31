@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Box Model Demo</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <h1>My Box Model Page</h1>
+    <nav class="navbar">
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="intro">
+      <h2>Introduction</h2>
+      <p>This section demonstrates how margins, padding, and borders affect elements using the CSS Box Model.</p>
+    </section>
+
+    <section class="cards">
+      <div class="card">
+        <h3>Card One</h3>
+        <p>This card shows spacing with margin and padding.</p>
+        <button>Read More</button>
+      </div>
+
+      <div class="card">
+        <h3>Card Two</h3>
+        <p>Notice the background color and border difference here.</p>
+        <button>Read More</button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2025 My Demo Page</p>
+  </footer>
+</body>
+</html>
